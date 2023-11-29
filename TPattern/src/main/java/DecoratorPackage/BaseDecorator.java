@@ -4,10 +4,20 @@
  */
 package DecoratorPackage;
 
+import BuilderPackage.Reporte;
+
 /**
  *
  * @author CltControl
  */
 public abstract class BaseDecorator extends Personalizacion{
+    public Personalizacion wrapper;
+
+    public BaseDecorator(Personalizacion wrapper) {
+        this.wrapper = wrapper;
+    }
     
+    public void personalizar(Reporte r){
+        
+    }
 }

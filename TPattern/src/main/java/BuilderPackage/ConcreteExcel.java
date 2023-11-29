@@ -8,6 +8,28 @@ package BuilderPackage;
  *
  * @author CltControl
  */
-public class ConcreteExcel implements Builder{
+public class ConcreteExcel implements Reporte {
+
+    public ReporteExcel getReporte(){
+        return null;
+        
+    }
+    
+    @Override
+    public void generarReporte() {
+
+    }
+
+    @Override
+    public void Step1() {
+        }
+
+    @Override
+    public void Step2() {
+        }
+
+    @Override
+    public void Step3() {
+        }
     
 }

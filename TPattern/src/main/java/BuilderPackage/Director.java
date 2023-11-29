@@ -9,5 +9,14 @@ package BuilderPackage;
  * @author CltControl
  */
 public class Director {
-    
+
+    public Reporte reporte;
+
+    public Director(Reporte reporte) {
+
+    }
+
+    public void changeReport(Reporte r) {
+
+    }
 }

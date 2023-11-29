@@ -8,6 +8,27 @@ package BuilderPackage;
  *
  * @author CltControl
  */
-public class ConcretePDF implements Builder{
-    
+public class ConcretePDF implements Reporte {
+
+    public ReportePDF getReporte() {
+        return null;
+
+    }
+
+    @Override
+    public void generarReporte() {
+
+    }
+
+    @Override
+    public void Step1() {
+    }
+
+    @Override
+    public void Step2() {
+    }
+
+    @Override
+    public void Step3() {
+    }
 }

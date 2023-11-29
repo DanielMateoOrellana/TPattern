@@ -8,6 +8,27 @@ package BuilderPackage;
  *
  * @author CltControl
  */
-public class ConcreteWord implements Builder{
-    
+public class ConcreteWord implements Reporte {
+
+    public ReporteWord getReporte() {
+        return null;
+
+    }
+
+    @Override
+    public void generarReporte() {
+
+    }
+
+    @Override
+    public void Step1() {
+    }
+
+    @Override
+    public void Step2() {
+    }
+
+    @Override
+    public void Step3() {
+    }
 }

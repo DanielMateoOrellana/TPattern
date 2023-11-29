@@ -4,10 +4,20 @@
  */
 package DecoratorPackage;
 
+import BuilderPackage.Reporte;
+
 /**
  *
  * @author CltControl
  */
 public class EstiloDecorator extends BaseDecorator{
     
+    public EstiloDecorator(Personalizacion wrapper) {
+        super(wrapper);
+    }
+    
+    @Override
+    public void personalizar(Reporte r){
+        
+    }
 }

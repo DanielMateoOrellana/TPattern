@@ -2,18 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DecoratorPackage;
-
-import BuilderPackage.Reporte;
+package AdapterPackage;
 
 /**
  *
  * @author CltControl
  */
-public class Personalizacion {
-    public Reporte r;
-    
-    public void personalize(Reporte r){
+public class Notificacion {
+    public void notificar(){
         
     }
 }

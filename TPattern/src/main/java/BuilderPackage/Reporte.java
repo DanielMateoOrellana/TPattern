@@ -8,6 +8,9 @@ package BuilderPackage;
  *
  * @author CltControl
  */
-public interface Builder {
-    
+public interface Reporte {
+    public void Step1();
+    public void Step2();
+    public void Step3();
+    public void generarReporte();
 }

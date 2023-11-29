@@ -4,10 +4,20 @@
  */
 package DecoratorPackage;
 
+import BuilderPackage.Reporte;
+
 /**
  *
  * @author CltControl
  */
-public class FuenteDecorator extends BaseDecorator{
-    
+public class FuenteDecorator extends BaseDecorator {
+
+    public FuenteDecorator(Personalizacion wrapper) {
+        super(wrapper);
+    }
+
+    @Override
+    public void personalizar(Reporte r) {
+
+    }
 }

@@ -4,10 +4,21 @@
  */
 package DecoratorPackage;
 
+import BuilderPackage.Reporte;
+
 /**
  *
  * @author CltControl
  */
-public class EleVisualDecorator extends BaseDecorator{
+public class EleVisualDecorator extends BaseDecorator {
     //Elementos Visuales Decorator
+
+    public EleVisualDecorator(Personalizacion wrapper) {
+        super(wrapper);
+    }
+
+    @Override
+    public void personalizar(Reporte r) {
+
+    }
 }
